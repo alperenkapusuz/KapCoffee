@@ -70,6 +70,11 @@ header {
 .find-store i {
     padding-right: 8px;
     font-size: 24px;
+    cursor: pointer;
+}
+
+.find-store:hover{
+    color:#008248
 }
 
 .sign-in, .join-now{
@@ -84,6 +89,12 @@ header {
 .sign-in{
     margin-right: 16px;
 }
+
+.sign-in:hover{
+    background-color: rgba(0,0,0,.06);
+    transition: all .2s ease;
+}
+
 
 
 .join-now{
